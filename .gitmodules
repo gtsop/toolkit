@@ -4,3 +4,6 @@
 [submodule "lib/tmux"]
 	path = lib/tmux
 	url = https://github.com/tmux/tmux
+[submodule "dotfiles/dotfiles-bashrc"]
+	path = dotfiles/dotfiles-bashrc
+	url = https://github.com/gtsop/dotfiles-bashrc.git
