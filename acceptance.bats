@@ -9,3 +9,7 @@
 @test "tmux software exists" {
 	which tmux
 }
+@test "~/.bashrc file points to .bashrc in sub-module" {
+	BASHRC_PATH=$(readlink -f $HOME/.bashrc)
+	[ "$BASHRC_PATH" == "$HOME/.toolkit/dotfiles/dotfiles-bashrc/.bashrc" ]
+}
