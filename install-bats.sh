@@ -1,1 +1,1 @@
-cd $HOME/.toolkit/lib/bats-core && ./install.sh /usr/local
+cd $HOME/.toolkit/lib/bats-core && sudo ./install.sh /usr/local
