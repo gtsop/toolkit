@@ -1,1 +1,1 @@
-pacman -S vim
+piu install vim
